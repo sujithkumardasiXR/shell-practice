@@ -1,6 +1,6 @@
 #!/bin/bash
 
-Number=&35
+Number=$35
 
 if [$Number -gt 100]
     then
