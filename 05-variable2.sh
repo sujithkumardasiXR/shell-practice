@@ -14,6 +14,4 @@ read User_email_id
 echo "user email id is $User_email_id"
 
 echo "please enter the password"
-read User_password
-echo "user password is $User_password"
-read -s "enter the $User_password"
+read -s "Password ::"
