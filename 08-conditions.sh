@@ -1,11 +1,11 @@
 #!/bin/bash
 
-Number=$35
+Number=$ 35
 
-if   [ $Number -gt 100 ]; then
-    echo"given number : $Number is greater than 100"
-elif [ $Number -eq 100 ]; then
-    echo"given number : $Number is equal to 100"
+if   [ $Number -gt 20 ]; then
+    echo"given number : $Number is greater than 20"
+elif [ $Number -eq 20 ]; then
+    echo"given number : $Number is equal to 20"
 else
-    echo"given number : $Number is less than 100"
+    echo"given number : $Number is less than 20"
 fi
