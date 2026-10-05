@@ -1,10 +1,9 @@
 #!/bin/bash
-person1 = "sujith"
-person2 = "sumith"
+PERSON1 = sujith
+PERSON2 = sumith
 
-
-echo "$person1 :: Hello $person2 how are you?"
-echo "$person2 :: I am fine $person1, how are you?"
-echo "$person1 :: I am also fine, what are you doing these days?"  
-echo "$person2 ::I am learning shell scripting, it is very interesting."    
+echo "$PERSON1 :: Hello $PERSON2 how are you?"
+echo "$PERSON2 :: I am fine $PERSON1, how are you?"
+echo "$PERSON1 :: I am also fine, what are you doing these days?"  
+echo "$PERSON2 ::I am learning shell scripting, it is very interesting."    
 
