@@ -34,7 +34,7 @@ do
      VALIDATE_PACKAGE $? "$package installation"
  else
      echo "$package is already installed, skipping the package installation"
-
+    fi
 done
 
 
