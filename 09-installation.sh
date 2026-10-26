@@ -28,7 +28,7 @@ else
 fi
 
 dnf install nodejs -y
- if [ $? -ne 0 ]; then
+ if [ $? -n 0 ]; then
     echo "nodejs package installation failed"
 else
     echo "nodejs package installation successful"
